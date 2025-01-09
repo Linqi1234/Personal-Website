@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script src="./index.js"></script>
+</head>
+
+<body class="body-homepage">
+
+  <!-- Header -->
+  <div class="header overflow-hidden mt-20">
+    <img src="imgs/guard_bar.svg" alt="myself" class="myself max-h-[50rem] float-right mr-0 ml-auto">
+    <div class="pl-[7%]">
+      <div class="hi">HI!</div>
+      <div class="name pl-[3%] text-6xl tracking-wider leading-tight">
+        <span id="zt1">"I AM </span>
+        <span id="zt2"><br> LINQI SUN."</span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- What I do -->
+  <div class="m-[7%]">
+    <div class="tag">What I do?</div>
+    <img src="imgs/arrow1.svg" alt="arrow1" class="w-10 mt-5 ml-10">
+    <!-- card container -->
+    <div class="flex flex-col place-items-center md:justify-center md:flex-row">
+      <!-- Box 1 -->
+      <div class="box mt-7 w-64 h-60 bg-[#C8A888] rotate-[-4deg]">
+        <img src="imgs/brush1.png" alt="brush" class="w-12 absolute ml-6 mt-12">
+        <div class="box_text absolute bottom-6 px-3 text-white w-full ">User Interface/ <br> User Experience Design
+        </div>
+        <div class="tag2 absolute ml-24 mt-5 px-3 rotate-3">Figma</div>
+      </div>
+      <!-- Box 2 -->
+      <div class="box w-56 h-64 bg-[#5F1A1F] rotate-12">
+        <img src="imgs/brush2.png" alt="brush" class="w-16 absolute mt-3">
+        <div class="box_text absolute bottom-8 px-3 text-white w-full">Front-end Development</div>
+        <div class="tag2 absolute ml-16 mt-12 px-3 rotate-3">HTML/CSS JavaScript</div>
+      </div>
+      <!-- Box 3 -->
+      <div class="box w-56 h-56 bg-[#EAC288] rotate-[-13deg]">
+        <div class="box_text absolute bottom-6 px-3 text-black w-full">Video Editor</div>
+        <div class="tag2 absolute ml-16 mt-5 px-2 rotate-[10deg]">Premiere Pro/After Effect/Final
+          Cut Pro</div>
+      </div>
+      <!-- Box 4 -->
+      <div class="box w-64 h-72 bg-[#F2EDD4] rotate-1">
+        <img src="imgs/brush3.png" alt="brush" class="w-12 absolute ml-40 mt-64">
+        <div class="box_text absolute bottom-6 px-3 text-black w-full">Virtual Reality/ Mixed Reality Game Design</div>
+        <div class="tag2 absolute ml-11 mt-16 px-3 rotate-6 inline-block bg-white">Unity/3D modeling</div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Featured Projects -->
+  <div class="m-[7%]">
+    <div class="tag">Featured projects</div>
+    <img src="imgs/arrow2.svg" alt="arrow1" class="w-12 ml-16 mt-5">
+    <div class="flex justify-center overflow-hidden mb-12">
+      <div>
+        <div class="portfolio pt-10">My Portfolio</div>
+        <img src="imgs/Underline1.svg" alt="Underline1" class="underline">
+      </div>
+      <img src="imgs/dot.svg" alt="dot" class="dot">
+    </div>
+    <!-- Projects -->
+    <div class="project projects grid gap-y-10 my-10 justify-around">
+
+      <art-card img-src="imgs/card_Nvshu.svg" title="Nvshu: From Tears to Sunshine"
+        description="Interactive VR film - VR - Unity develop" link-url="./nvshu.html">
+      </art-card>
+      <art-card img-src="imgs/card_Journey.svg" title="The Journey of Life"
+        description="Interactive VR film - VR - Unity develop"></art-card>
+      <art-card img-src="imgs/card_PicPik.svg" title="PicPik"
+        description="UI design - Installation - Figma develop"></art-card>
+      <art-card img-src="imgs/card_Rubbish.svg" title="Leave No Trace"
+        description="App design - User research - React develop"></art-card>
+      <art-card img-src="imgs/card_Mountain.svg" title="Chasing Shadows in the mountains"
+        description="Interactive art installation art - Arduino develop"></art-card>
+      <art-card img-src="imgs/card_Rubbish.svg" title="The Objective Truth"
+        description="Interactive art installation - EEG - TouchDesigner develop"></art-card>
+
+    </div>
+
+
+  </div>
+  <!-- Contact Here -->
+  <div class="m-[7%]">
+    <div class="tag">Contact here</div>
+    <img src="imgs/arrow2.svg" alt="arrow1" class="w-12 ml-16 my-5">
+
+    <div class="flex flex-col md:flex-row items-start justify-between">
+
+      <!-- Left side -->
+      <p class="pl-5 mb-10 text-xl">Have a project idea? <br>just say me <span class="font-bold">Hi.</span></p>
+
+      <!-- Right side -->
+      <div>
+        <ul class="space-y-8 md:space-y-14 font-['Handlee'] text-xl">
+          <li class="flex items-center">
+            <div class="label bg-[#5F1A1F]">Name</div>
+            <div class="info">Linqi (Summer) Sun</div>
+          </li>
+          <li class="flex items-center">
+            <div class="label bg-[#E4C772]">Email</div>
+            <div class="info">linqisun796@gmail.com</div>
+          </li>
+          <li class="flex items-center">
+            <div class="label bg-[#AF641E] md:text-nowrap">About the project</div>
+            <div class="info"> I want to discuss you about .......</div>
+          </li>
+        </ul>
+        <button type="submit" class="mt-12 float-right bg-white text-xl font-bold py-2 px-5 rotate-2">
+          Send Here
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Hr -->
+  <hr class="h-1 w-full bg-black">
+
+  <!-- Footer -->
+  <div class=" mx-auto flex items-center justify-between my-4 px-2 md:px-10 pt-6 pb-2 font-['Space_Grotesk'] ">
+    <!-- Left side -->
+    <div class="flex items-center space-x-2 md:space-x-3">
+      <img src="imgs/star.svg" alt="Icon" class="w-6 md:w-7">
+      <span class="md:text-xl font-semibold">Summer</span>
+    </div>
+
+    <!-- Right side -->
+    <ul class="flex space-x-3 md:space-x-6 md:text-lg font-medium">
+      <li>
+        <a href="https://github.com/Linqi1234" class="flex items-center">
+          Github
+        </a>
+      </li>
+      <li>
+        <a href="http://www.youtube.com/@ComingSun-c9k" class="flex items-center">
+          Youtube
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/linqi-sun-b81506298/" class="flex items-center"> 
+          LinkedIn
+        </a>
+      </li>
+    </ul>
+
+</body>
+
+</html>
